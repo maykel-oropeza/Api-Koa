@@ -1,0 +1,26 @@
+{
+  "name": "register-mock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src"
+  },
+  "dependencies": {
+    "@koa/cors": "2",
+    "joi": "^13.6.0",
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-cors": "^0.0.16",
+    "koa-joi-router": "^5.1.0",
+    "koa-joi-validate": "^0.5.1",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.5",
+    "uuid": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.46",
+    "@types/koa-router": "^7.0.30",
+    "koa-logger": "^3.2.0"
+  }
+}
